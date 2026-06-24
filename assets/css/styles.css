@@ -12,7 +12,7 @@
   --primary: #1a4f9c;      /* deep blue */
   --primary-dk: #102f63;
   --primary-lt: #3d77c8;
-  --accent: #1696c9;       /* bright azure */
+  --accent: #e8843a;       /* warm orange — complementary to blue */
   --hi: #9ec8f0;           /* light blue highlight (hero eyebrow / em / helix / footer) */
   --line: #dde3ee;
   --white: #ffffff;
@@ -118,7 +118,7 @@ img { max-width: 100%; display: block; }
   transition: transform .15s, box-shadow .15s, background .15s;
 }
 .btn-primary { background: var(--accent); color: #fff; }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 24px -12px rgba(22,150,201,.8); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 24px -12px rgba(232,132,58,.8); }
 .btn-ghost { border: 1px solid rgba(255,255,255,.4); color: #eef3f1; }
 .btn-ghost:hover { background: rgba(255,255,255,.1); }
 
