@@ -16,7 +16,10 @@
       '<div>' +
         '<h3><a href="' + p.url + '" target="_blank" rel="noopener">' + p.title + '</a></h3>' +
         '<div class="authors">' + p.authors + '</div>' +
-        '<span class="venue">' + p.venue + ' \u00B7 ' + p.year + '</span>' +
+        '<div class="pub-meta">' +
+          '<span class="venue">' + p.venue + ' \u00B7 ' + p.year + '</span>' +
+          (p.if ? '<span class="impact-factor" title="JCR ' + p.jcrYear + ' Journal Impact Factor">JCR IF ' + p.if + '</span>' : '') +
+        '</div>' +
       '</div></li>';
   }).join('');
 

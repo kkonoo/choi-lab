@@ -215,8 +215,15 @@ section { padding: 76px 0; }
 .pub h3 a:hover { color: var(--primary); text-decoration: underline; }
 .pub .authors { font-size: 14px; color: var(--ink-soft); }
 .pub .authors b { color: var(--ink); }
-.pub .venue { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 600; color: var(--primary); background: var(--paper-2); padding: 3px 12px; border-radius: 999px; }
+.pub-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.pub .venue,
+.pub .impact-factor { display: inline-block; font-size: 13px; font-weight: 600; padding: 3px 12px; border-radius: 999px; }
+.pub .venue { color: var(--primary); background: var(--paper-2); }
+.pub .impact-factor { color: #17805f; background: #e3f4ed; }
 .pub-note { font-size: 14px; color: var(--muted); margin-bottom: 28px; }
+.pub .authors sup { color: var(--accent); font-size: .75em; }
+.pub-role-note { margin: -14px 0 10px; color: var(--muted); font-size: 12.5px; }
+.pub-role-note sup { color: var(--accent); font-weight: 700; }
 
 /* ---------- Contact ---------- */
 .contact-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: start; }

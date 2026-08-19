@@ -32,6 +32,8 @@ publications-data.js 파일 맨 위에 아래 논문을 새로 추가해줘.
 - 저자: B Park, J Choi, JH Lee   (우리 랩 저자 J Choi 는 굵게)
 - 저널: Nature Communications
 - 연도: 2026
+- 출판 당시 JCR IF: 9.1 (JCR 2024)
+- 교수님 저자 역할: 공동 1저자
 - DOI 링크: https://doi.org/10.xxxx/xxxxx
 ```
 
